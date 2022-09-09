@@ -1,0 +1,106 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("e1174605-4ce6-4e9c-bd79-1c194f23d37f",
+	'水力発電所',
+	9,
+	'水力発電所',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_REF
+	VALUES ("e1174605-4ce6-4e9c-bd79-1c194f23d37f",
+	"33ab5bb6-3499-4e34-b3be-424290376ff4",
+	0,
+	"7c4057ce-29c7-4e0f-9516-565f62f496a9",
+	"25833a2c-99bf-4c95-8ef0-30d66e813908",
+	"5db70cfd-d729-4306-8586-8accf47113ef",
+	"0b09a5d2-9e0c-487a-a4f0-2ac365703b60",
+	"e295c180-19e5-4c8a-8e3e-65b121c8b50a",
+	"fdf564df-d88e-4e71-97ff-25cd6f6ecb8f",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'発電所',
+	'Plant_ID',
+	'R7');
+INSERT INTO R_RGO_PROXY
+	VALUES ("e1174605-4ce6-4e9c-bd79-1c194f23d37f",
+	"25833a2c-99bf-4c95-8ef0-30d66e813908",
+	"5db70cfd-d729-4306-8586-8accf47113ef",
+	'../Model.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("7c4057ce-29c7-4e0f-9516-565f62f496a9",
+	"33ab5bb6-3499-4e34-b3be-424290376ff4",
+	0,
+	"25833a2c-99bf-4c95-8ef0-30d66e813908",
+	"0b09a5d2-9e0c-487a-a4f0-2ac365703b60",
+	'../Model.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("e295c180-19e5-4c8a-8e3e-65b121c8b50a",
+	"e1174605-4ce6-4e9c-bd79-1c194f23d37f",
+	"7c4057ce-29c7-4e0f-9516-565f62f496a9",
+	"33ab5bb6-3499-4e34-b3be-424290376ff4",
+	1,
+	'Plant_ID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("7c4057ce-29c7-4e0f-9516-565f62f496a9",
+	"33ab5bb6-3499-4e34-b3be-424290376ff4",
+	'../発電所/発電所.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("e295c180-19e5-4c8a-8e3e-65b121c8b50a",
+	"e1174605-4ce6-4e9c-bd79-1c194f23d37f",
+	"00000000-0000-0000-0000-000000000000",
+	'Plant_ID',
+	'',
+	'',
+	'Plant_ID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("9c8a3df8-423a-4f63-af53-cfe336f31f7c",
+	"e1174605-4ce6-4e9c-bd79-1c194f23d37f");
+INSERT INTO O_BATTR
+	VALUES ("9c8a3df8-423a-4f63-af53-cfe336f31f7c",
+	"e1174605-4ce6-4e9c-bd79-1c194f23d37f");
+INSERT INTO O_ATTR
+	VALUES ("9c8a3df8-423a-4f63-af53-cfe336f31f7c",
+	"e1174605-4ce6-4e9c-bd79-1c194f23d37f",
+	"e295c180-19e5-4c8a-8e3e-65b121c8b50a",
+	'流水量',
+	'',
+	'',
+	'流水量',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000003",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"e1174605-4ce6-4e9c-bd79-1c194f23d37f");
+INSERT INTO O_OIDA
+	VALUES ("e295c180-19e5-4c8a-8e3e-65b121c8b50a",
+	"e1174605-4ce6-4e9c-bd79-1c194f23d37f",
+	0,
+	'Plant_ID');
+INSERT INTO O_ID
+	VALUES (1,
+	"e1174605-4ce6-4e9c-bd79-1c194f23d37f");
+INSERT INTO O_ID
+	VALUES (2,
+	"e1174605-4ce6-4e9c-bd79-1c194f23d37f");
+INSERT INTO PE_PE
+	VALUES ("e1174605-4ce6-4e9c-bd79-1c194f23d37f",
+	1,
+	"b4aace5f-d5aa-48f0-9820-a38a83394324",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("b4aace5f-d5aa-48f0-9820-a38a83394324",
+	"00000000-0000-0000-0000-000000000000",
+	"65546f5b-468a-4fcf-b91c-eceed8ad4781",
+	'Model',
+	'',
+	0,
+	'../Model.xtuml');

@@ -1,0 +1,55 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("cda6d114-b74f-46ce-aa24-634f3f2ec415",
+	'Node1',
+	2,
+	'Node1',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("18d2098b-19aa-4cac-a42c-d6d2564c673d",
+	"cda6d114-b74f-46ce-aa24-634f3f2ec415");
+INSERT INTO O_BATTR
+	VALUES ("18d2098b-19aa-4cac-a42c-d6d2564c673d",
+	"cda6d114-b74f-46ce-aa24-634f3f2ec415");
+INSERT INTO O_ATTR
+	VALUES ("18d2098b-19aa-4cac-a42c-d6d2564c673d",
+	"cda6d114-b74f-46ce-aa24-634f3f2ec415",
+	"00000000-0000-0000-0000-000000000000",
+	'Node_ID',
+	'',
+	'',
+	'Node_ID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"cda6d114-b74f-46ce-aa24-634f3f2ec415");
+INSERT INTO O_OIDA
+	VALUES ("18d2098b-19aa-4cac-a42c-d6d2564c673d",
+	"cda6d114-b74f-46ce-aa24-634f3f2ec415",
+	0,
+	'Node_ID');
+INSERT INTO O_ID
+	VALUES (1,
+	"cda6d114-b74f-46ce-aa24-634f3f2ec415");
+INSERT INTO O_ID
+	VALUES (2,
+	"cda6d114-b74f-46ce-aa24-634f3f2ec415");
+INSERT INTO PE_PE
+	VALUES ("cda6d114-b74f-46ce-aa24-634f3f2ec415",
+	1,
+	"1f165653-1a1d-43b7-976f-3520fc6b18d7",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("1f165653-1a1d-43b7-976f-3520fc6b18d7",
+	"00000000-0000-0000-0000-000000000000",
+	"65546f5b-468a-4fcf-b91c-eceed8ad4781",
+	'Model',
+	'',
+	0,
+	'../Model.xtuml');

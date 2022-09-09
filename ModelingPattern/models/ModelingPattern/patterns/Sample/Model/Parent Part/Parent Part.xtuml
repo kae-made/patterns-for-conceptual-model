@@ -1,0 +1,55 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("14e62d4d-aa65-420b-9226-36cd2dc5caf8",
+	'Parent Part',
+	2,
+	'ParentPart',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("c5fbcf55-8c7d-4a46-852f-1e29f45562f0",
+	"14e62d4d-aa65-420b-9226-36cd2dc5caf8");
+INSERT INTO O_BATTR
+	VALUES ("c5fbcf55-8c7d-4a46-852f-1e29f45562f0",
+	"14e62d4d-aa65-420b-9226-36cd2dc5caf8");
+INSERT INTO O_ATTR
+	VALUES ("c5fbcf55-8c7d-4a46-852f-1e29f45562f0",
+	"14e62d4d-aa65-420b-9226-36cd2dc5caf8",
+	"00000000-0000-0000-0000-000000000000",
+	'Parent_ID',
+	'',
+	'',
+	'Parent_ID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"14e62d4d-aa65-420b-9226-36cd2dc5caf8");
+INSERT INTO O_OIDA
+	VALUES ("c5fbcf55-8c7d-4a46-852f-1e29f45562f0",
+	"14e62d4d-aa65-420b-9226-36cd2dc5caf8",
+	0,
+	'Parent_ID');
+INSERT INTO O_ID
+	VALUES (1,
+	"14e62d4d-aa65-420b-9226-36cd2dc5caf8");
+INSERT INTO O_ID
+	VALUES (2,
+	"14e62d4d-aa65-420b-9226-36cd2dc5caf8");
+INSERT INTO PE_PE
+	VALUES ("14e62d4d-aa65-420b-9226-36cd2dc5caf8",
+	1,
+	"b4aace5f-d5aa-48f0-9820-a38a83394324",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("b4aace5f-d5aa-48f0-9820-a38a83394324",
+	"00000000-0000-0000-0000-000000000000",
+	"65546f5b-468a-4fcf-b91c-eceed8ad4781",
+	'Model',
+	'',
+	0,
+	'../Model.xtuml');
